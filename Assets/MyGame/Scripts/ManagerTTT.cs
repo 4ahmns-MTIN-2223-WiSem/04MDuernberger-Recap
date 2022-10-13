@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ManagerTTT : MonoBehaviour
 {
-    public TicTacToeElem[] game;
+    public TicTacToeElem[] game; //Array aus Elementen
     public bool whichPlayer = false; // false = Player X, true = Player O
     public Image DotLeft;
     public Image DotRight;
@@ -30,8 +30,6 @@ public class ManagerTTT : MonoBehaviour
     {
        
 
-        for (int i = 0; i < 3; i++)
-        {
 
             if (game[one].GetComponent<TicTacToeElem>().myState == Player && game[two].GetComponent<TicTacToeElem>().myState == Player && game[three].GetComponent<TicTacToeElem>().myState == Player)
             {
@@ -43,7 +41,7 @@ public class ManagerTTT : MonoBehaviour
 
             }
 
-        }
+        
 
         if (winStatus)
         {
