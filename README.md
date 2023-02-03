@@ -2,7 +2,7 @@
 
 Kurzbeschreibung: Eisstockschießen - Wenn der Spieler sich auf die Holzfläche stellt, kann er den Eisstock nehmen und versuchen so nah wie möglich zur Daube (Würfel) zu schießen. An der Tafel werden Distanz und Punkte angezeigt.
 
-Developmentplatform: Unity 2020.3.18f1, Visual Studio 2022
+Developmentplatform: Unity 2020.3.18f1, Visual Studio 2022, Windows 10
 
 3 Syntaxelemente:
 - Methodendeklaration
